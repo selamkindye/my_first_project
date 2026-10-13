@@ -89,8 +89,8 @@ border-bottom-left-radius: 5px;
 border-top-left-radius: 5px;
 }
 .btn{
-
-width: 100%;
+float: left;
+width: 100px;
 height: 40px;
 background: #ff7200;
 border: 2px solid #ff7200;
@@ -121,7 +121,7 @@ padding-bottom: 25px;
 font-family: Arial;
 letter-spacing: 3.2px;
 line-height: 30px;
- font-size: 20px; 
+ font-size: 15px; 
 }
 .content h1{
 font-family: 'Times New Roman', Times, serif;
@@ -158,12 +158,13 @@ font-size: 60px;
 .form{
 height: 380px;
     width: 250px;
-    background: linear-gradient(to top,rgba(0,0,0,0.9)50%,rgba(0,0,0,0.9)50%,);
+    background: rgba(0,0,0,0.98);
     position: absolute;
     top:-20px;
     left: 870px;
     border-radius: 10px;
     padding: 25px;
+    
 }
 .form h2{
 width: 220px;
@@ -209,4 +210,18 @@ font-size: 18px;
 border-radius: 10px;
 cursor: pointer;
 color: #fff;
+}
+.link{
+
+    font-size: 20px;
+}
+.sign{
+       font-size: 25px;
+ 
+}
+.liw{
+    font-size: 25px;
+
+
+
 }
